@@ -1,6 +1,6 @@
 {
   "name": "textAngular",
-  "version": "1.2.0",
+  "version": "1.2.0-1",
   "description": "A radically powerful Text-Editor/Wysiwyg editor for Angular.js",
   "author": "https://github.com/fraywing/textAngular/graphs/contributors",
   "license": "MIT",
@@ -31,7 +31,7 @@
   },
   "scripts": {
     "test": "grunt",
-    "postinstall": "./node_modules/bower/bin/bower install"
+    "_postinstall": "./node_modules/bower/bin/bower install"
   },
   "repository": {
     "type": "git",
